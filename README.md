@@ -1,4 +1,4 @@
-# minikeyvalue
+# Distributed Key Value Store
 
 ![Tests](https://github.com/geohot/minikeyvalue/workflows/Tests/badge.svg)
 
