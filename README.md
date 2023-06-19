@@ -1,6 +1,6 @@
 # Distributed Key Value Store
 
-minikeyvalue is a ~1000 line distributed key value store, with support for replication, multiple machines, and multiple drives per machine. Optimized for values between 1MB and 1GB. Inspired by SeaweedFS, but simple. Should scale to billions of files and petabytes of data.
+This is a ~1000 line distributed key value store, with support for replication, multiple machines, and multiple drives per machine. Optimized for values between 1MB and 1GB. Inspired by SeaweedFS, but simple. Should scale to billions of files and petabytes of data.
 
 A key part of minikeyvalue's simplicity is using stock nginx as the volume server.
 
