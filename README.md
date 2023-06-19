@@ -4,7 +4,7 @@ minikeyvalue is a ~1000 line distributed key value store, with support for repli
 
 A key part of minikeyvalue's simplicity is using stock nginx as the volume server.
 
-Even if this code is crap, the on disk format is super simple! We rely on a filesystem for blob storage and a LevelDB for indexing. The index can be reconstructed with rebuild. Volumes can be added or removed with rebalance.
+The on disk format is super simple! A filesystem is used for blob storage and a LevelDB for indexing. The index can be reconstructed with rebuild. Volumes can be added or removed with rebalance.
 
 ### API
 
